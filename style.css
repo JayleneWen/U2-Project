@@ -18,16 +18,23 @@ img {
 h2 {
     text-align:center;
   
+  
 }
 
 /* The code below aligns all the sections horizontally on the bottom. */
 .section-container {
     display:flex;
     justify-content:space-between;
+  background-color: steelblue;
 }
 
 /* The code below a solid black border to section and puts space between them (the margin). */
 .section {
     border: 5px black solid;
     margin:6px;
+    background-color: dodgerblue; 
 }
+
+body{background-color: skyblue ;}
+button{background-color: aliceblue;}
+button:hover{background-color: blanchedalmond;}
