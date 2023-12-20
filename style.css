@@ -25,7 +25,7 @@ h2 {
 .section-container {
     display:flex;
     justify-content:space-between;
-  background-color: steelblue;
+  background-color: #cadefc; 
 }
 
 /* The code below a solid black border to section and puts space between them (the margin). */
@@ -34,7 +34,31 @@ h2 {
     margin:6px;
     background-color: dodgerblue; 
 }
+.section3 {
+    border: 5px black solid;
+    margin:6px;
+    background-color: #17C3B2; 
+}
+.section4 {
+    border: 5px black solid;
+    margin:6px;
+    background-color: #016FB9; 
+}
+.section5 {
+    border: 5px black solid;
+    margin:6px;
+    background-color: #BCAA99; 
+}
+
+.section-2{
+  border: 5px #9896f1 solid;
+  margin:5px; 
+  
+  border-radius: 10px;}
 
 body{background-color: skyblue ;}
-button{background-color: aliceblue;}
+button{background-color: aliceblue;
+      border-radius: 10px;}
+
+
 button:hover{background-color: blanchedalmond;}
